@@ -29,7 +29,7 @@ def main():
     st.set_page_config(page_title="GPT 求职信助手 OpenAI GPT Cover Letter Generator", page_icon=":guardsman:", layout="wide")
     st.title("OpenAI GPT 求职信助手\nOpenAI GPT Cover Letter Generator")
     st.markdown(
-        "根据你的能力以及职位要求，由 OpenAI GPT 帮助你生成一封专业的求职信。要想了解更多 -> https://axton.blog \n\n OpenAI GPT will help you generate a professional cover letter based on your profile and job description. To learn more -> https://axton.blog")
+        "根据你的能力以及职位要求，由 OpenAI GPT 帮助你生成一封专业的求职信。\n\n OpenAI GPT will help you generate a professional cover letter based on your profile and job description. ")
 
     # Get user input
     user_profile = st.text_area("输入你的特长 Your Profile:")
